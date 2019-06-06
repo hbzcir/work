@@ -6,3 +6,13 @@ javascrip
 reactjs  
 - 함수형, 클래스형 (https://overreacted.io/ko/how-are-function-components-different-from-classes/)
 - react hooks(https://chatoo2412.github.io/javascript/react/react-hooks-
+
+함수형 
+- const, 화살표함수, 매개변수, return, export defult, 상수형 대문자 네이밍, jsx 닫는태그 유의
+const MYNANE = ({name}) => { 
+   return (
+           <span>{name}</ span>
+          )
+
+ }
+export default MYNAME;
